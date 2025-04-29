@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+
+# Env files
+.env
+
+# Docker
+*.log
+*.pid
+
+# Airflow
+logs/
+dags/__pycache__/
+output/ 
+
+# VSCode 
+.vscode/
+
+#venv
+venv/
+
+
+# Ignore tempcoderunner files
+**/tempCodeRunnerFile.*
